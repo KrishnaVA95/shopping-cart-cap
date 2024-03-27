@@ -1,4 +1,4 @@
-using from './products';
-using from './users';
-using from './purchase-order-items';
 using from './purchase-order';
+using from './purchase-order-item';
+using from './product';
+using from './user';
