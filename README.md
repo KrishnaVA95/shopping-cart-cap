@@ -49,3 +49,4 @@ em deixar as funcionalidades funcionando e o código bem bacana! 😋
 ---
 
 _O desafio acima foi cuidadosamente construído para propósitos de avaliação apenas._
+
