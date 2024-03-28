@@ -1,2 +1,2 @@
-id,product_id,purchaseOrder_id,quantity,price
-POitem1,productID1,ORDEM-DE-COMPRA-1,4,-
+id,product_id,purchaseOrder_id,quantity
+POitem1,productID1,ORDEM-DE-COMPRA-1,4

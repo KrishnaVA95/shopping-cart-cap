@@ -19,6 +19,16 @@
                             "email": ["dummy@dummy.com"],
                             "Groups": ["DUMMY_GROUPS"]
                         }
+                    },
+                    "test": {
+                        "password": "test",
+                        "roles": [
+                            "ROLE_USER"
+                        ],
+                        "userAttributes": {
+                            "email": ["test@test.com"],
+                            "Groups": ["TEST_GROUPS"]
+                        }
                     }
                 }
             }
