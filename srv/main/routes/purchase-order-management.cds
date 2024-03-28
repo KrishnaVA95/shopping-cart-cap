@@ -1,5 +1,8 @@
 using { db.models } from '../../../db/models';
 
+@requires: 'authenticated-user'
 service PurchaseOrderManagementService {
-    entity PurchaseOrder as projection on models.PurchaseOrders;
+    entity PurchaseOrders as projection on models.PurchaseOrders;
+    entity Users as projection on models.Users;
+    entity PurchaseOrdersItems as projection on models.PurchaseOrderItems;
 }
