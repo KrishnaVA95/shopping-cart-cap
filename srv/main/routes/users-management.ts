@@ -10,13 +10,18 @@ export default (service: Service) => {
     });
 
     service.before(['DELETE', 'UPDATE'], 'Users', async (request: Request) => {
-        // const userId = request.user.id; 
         const isAdmin = request.user.is('ROLE_DUMMY_ADMIN');
+        
+        // Nota: Encontrar um unsuario com determinado id: ok.
+        // Nota II: Qual ID eu preciso? Como eu sei o id do atual usuario logado? 
         // const userBeingModified = request.data.KEY.id; 
+        // const userId = request.user.id;  // Funciona ???
+        // const isHeHimself = 
 
         if (!isAdmin) {
-            // return request.reject(403, 'Não autorizado para realizar esta operação');
-            // return request.user.purchaseOrders
+            return request.reject(403, 'Não autorizado');
         }
+
+
     }); 
 }
