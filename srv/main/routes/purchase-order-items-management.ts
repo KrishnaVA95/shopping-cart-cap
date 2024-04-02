@@ -26,9 +26,9 @@ export default (service: Service) => {
         }
     })
 
-    service.before('READ', 'PurchaseOrderItems', (request: Request)=>{
-        if (!request.user.is('ROLE_DUMMY_ADMIN')) {
-            return request.reject(403, 'Não autorizado')
-        }
-    })
+    // service.before('READ', 'PurchaseOrderItems', (request: Request)=>{
+    //     if (!request.user.is('ROLE_DUMMY_ADMIN')) {
+    //         return request.reject(403, 'Não autorizado')
+    //     }
+    // })
 }
