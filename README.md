@@ -73,8 +73,8 @@ DOC: https://docs.oasis-open.org/odata/odata/v4.0/os/part2-url-conventions/odata
 # Notas do Programa:
 
 O que não consegui concluir nas autorizaçoens:
--> Users: Edição e deleção, quando voce não é um admin, só podem ser realizados em voce mesmo.
--> Purchase-orders :  Se o user não for admin ele deve receber apenas as suas ordens de comrpas. 
+- Users: Edição e deleção, quando voce não é um admin, só podem ser realizados em voce mesmo.
+- Purchase-orders :  Se o user não for admin ele deve receber apenas as suas ordens de comrpas. 
 
 -> erro no PATCH de PurchaseOrderItem
 
@@ -86,3 +86,6 @@ O que não consegui concluir nas autorizaçoens:
 	}
 }
 ```
+O que não consegui concluir nas annotations:
+-  Importação " Target: 'items/@UI.LineItem' não funciona // Arquivo: anotations: purchase-order.cds
+-  Onde aplicar a lógica das funçoens dos botoens (addItem, addCart) ?

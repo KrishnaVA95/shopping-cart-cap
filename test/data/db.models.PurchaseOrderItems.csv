@@ -1,2 +1,4 @@
 id,product_id,purchaseOrder_id,quantity
-POitem1,productID1,ORDEM-DE-COMPRA-1,4
+3b44646a-6d2b-446b-9294-27e74ffdcb57,ad06f282-b096-4fa3-8c07-f1394e018f0e,217cb812-e575-4bff-8938-041ab67de913,4
+2cbc8eb9-3420-4d86-b113-400a25593921,aebebb4a-68ce-4cdf-b1ee-9d2e8f393dcd,217cb812-e575-4bff-8938-041ab67de913,2
+183d967f-f973-41f6-8126-e3258af756c3,eeebf3d7-2ca5-4a3b-9df2-f5588b4e7dd6,217cb812-e575-4bff-8938-041ab67de913,6
